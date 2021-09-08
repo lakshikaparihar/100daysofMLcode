@@ -2,28 +2,29 @@
 
 
 
-We have a dataframe `reviews`
+ Dataframe used is `reviews`
 
 
 || Unnamed: 0 |	country|description	|designation|points|price|province|	region_1|region_2|variety |winery|
-| :---: |:--:      | :-:    | :-:        |:---:      |:---: |:---:| :-:    | :-:     |:---:   | :-:     | :-: |
+| :---: |:--:      | :-:    | :-:             |:---:      |:---: |:---:| :-:    | :-:     |:---:   | :-:     | :-: |
 |0 |0  |US    |  This tremendous 100% varietal wine hails from ... |Martha's Vineyard | 96 |235.0| California| Napa Valley |Napa |Cabernet |Sauvignon Heitz|
 |1 |	1 |Spain |	Ripe aromas of fig, blackberry and cassis are ...|	Carodorum Selección Especial Reserva |	96|	110.0| 	Northern Spain|	Toro	|NaN	|Tinta de Toro|	Bodega Carmen Rodríguez|
 |2 |	2 |US	 |Mac Watson honors the memory of a wine once ma...   |Special Selected Late Harvest|	96|	90.0|	California| Knights Valley|	Sonoma|	Sauvignon Blanc	|Macauley|
 |3 |	3 |US	 |This spent 20 months in 30% new French oak, an...	  |Reserve|	96|	65.0|	Oregon|	Willamette Valley|	Willamette Valley|	Pinot Noir|	Ponzi|
 |4 |	4 |France|	This is the top wine from La Bégude, named aft...|	La Brûlade|	95|	66.0|	Provence|	Bandol|	NaN	|Provence red blend	|Domaine de la Bégud|
 
+<br>
 
 ## 👉 Accessing Columns of Dataframe
 
 There are two ways by which we can access its column and both returns the same output: :
 
-1️. Using dot(.)
+1. Using dot(.)
    ```
    reviews.country
    ```
 
-2️. Using index([])
+2. Using index([])
    ```
    reviews['country']
    ```
@@ -32,13 +33,7 @@ There are two ways by which we can access its column and both returns the same o
 
 0             US <br>
 1          Spain <br>
-2             US <br>
-3             US <br>
-4         France <br>
            ...   <br>
-150925     Italy <br>
-150926    France <br>
-150927     Italy <br>
 150928    France <br>
 150929     Italy <br>
 Name: country, Length: 150930, dtype: object
@@ -53,7 +48,7 @@ reviews['country'][1]
 
 'spain'
 
-## 👉 Selecting data based on its numerical position `iloc ` [row-first , column-second]
+## 👉 Selecting data based on its numerical position `iloc` [row-first , column-second]
 
 
 * 1st row of every column
@@ -79,7 +74,7 @@ reviews['country'][1]
   ```
 
 
-## 👉 Selecting data based on its label `loc ` [row-first , column-second]
+## 👉 Selecting data based on its label `loc` [row-first , column-second]
 <br>
 
 * 0th row of country column
@@ -173,3 +168,7 @@ reviews.set_index("Unnamed: 0")
     ```
     reviews['points'] = random.randint(0,200)
     ```
+    
+<br>
+
+Check out the [notebook](https://github.com/lakshikaparihar/100daysofMLcode/blob/a0149ed4937df81fb85a1c6121da3c4f15f2253a/2_Pandas_Data_Manipulation/Exercise/Exercise.ipynb) for the example
