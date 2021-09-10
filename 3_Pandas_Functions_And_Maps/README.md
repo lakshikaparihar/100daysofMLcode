@@ -39,7 +39,7 @@ Name: points, dtype: float64
 
 ---
 
-<font size="3"> The summary function output changes based on the data type of the input</font> 
+<font size="4"> The summary function output changes based on the data type of the input</font> 
 
 <br>
 
@@ -169,4 +169,6 @@ bargain_wine = reviews.loc[bargain_idx, 'variety']
 bargain_wine
 ```
 
-idxmax returns the index of the maximum value of the column
+`idxmax` returns the index of the maximum value of the column <br>
+
+Check out the [notebook](https://github.com/lakshikaparihar/100daysofMLcode/blob/84d2ab156c023d814d54dca2c36e50c10c1609bd/3_Pandas_Functions_And_Maps/Exercise/Exercise.ipynb) for the example
