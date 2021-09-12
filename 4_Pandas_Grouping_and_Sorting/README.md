@@ -90,3 +90,5 @@ countries_reviewed.reset_index()
         countries_reviewed.sort_index()
         ```
 
+<br>
+Check out the [notebook](https://github.com/lakshikaparihar/100daysofMLcode/blob/4389916b324c3f250d7e07dedcca07be00682aaf/4_Pandas_Grouping_and_Sorting/Exercise/exercise.ipynb) for the example
