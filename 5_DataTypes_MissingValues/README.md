@@ -20,6 +20,8 @@ reviews.points.dtype
 reviews.points.astype('float64')
 ```
 
+<br>
+
 ## 👉 Missing Values
 
 <br>
@@ -60,3 +62,7 @@ Filling each missing value with the first non-null value that appears sometime a
 ```
 reviews.taster_twitter_handle.replace("@kerinokeefe", "@kerino")
 ```
+
+<br>
+
+Check out the [notebook](https://github.com/lakshikaparihar/100daysofMLcode/blob/fc04efb5d83247def219a4c24dd8059e0b9908bc/5_DataTypes_MissingValues/Exercise/Exercise.ipynb) for the example
