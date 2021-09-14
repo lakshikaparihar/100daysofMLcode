@@ -57,3 +57,6 @@ Pandas has three core methods for combining different dataframes. In order of in
     left.join(right, lsuffix='_CAN', rsuffix='_UK')
     ```
 
+<br>
+
+Check out the [notebook](https://github.com/lakshikaparihar/100daysofMLcode/blob/f23e5d455eb9cdb0b1894874cc456142b48a7ac3/6_Pandas_Renaming_Combining/Exercise/Exercise.ipynb) for the example
