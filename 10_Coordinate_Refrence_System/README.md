@@ -1,3 +1,4 @@
+# Coordinate Refrence System (CRS)
 As we know World is actually a 3D globe , so it render it as a flat surface we use a method called `Map Projection`.
 
 
@@ -39,11 +40,15 @@ However, when creating a GeoDataFrame from a CSV file, we have to set the CRS. E
 
 * The gpd.points_from_xy() function creates Point objects from the latitude and longitude columns.
 
+<br>
+
 ### ⁉️ How to set CRS
 
 ```python
 df.crs = {'init': 'epsg:4326'}
 ```
+
+<br>
 
 ## 👉 Re-Projecting
 
@@ -78,3 +83,4 @@ df.geometry.length
 df.geometry.area
 ```
 
+Check out the [notebook](https://github.com/lakshikaparihar/100daysofMLcode/blob/4c4bb4d5f105f87ccf89be4a64d67f04cd6900df/10_Coordinate_Refrence_System/Exercise/Exercise.ipynb) for the example
