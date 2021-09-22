@@ -74,6 +74,7 @@ regions.to_crs("+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs")
 * a `LineString` for a street, or
 * a `Polygon` to show country boundaries.
 
+
 ```python
 # point coordinates
 df.geometry.x
